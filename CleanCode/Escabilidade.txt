@@ -1,0 +1,7 @@
+Se vc tem um algoritimo e aumentar a quantidade de um loop por exemplo
+  o código ficará pesado por causa disso? 
+Big O - > rápido O(1) 
+        > normal O(N) pra cima
+        > devagar O(N!, N²)
+
+        set(). pega só coisas unicas

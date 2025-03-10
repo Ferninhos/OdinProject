@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="#">
+    <script>
+        const image = document.querySelector('img');
+
+        async function getCats() {
+            const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=WW3KGJxHHnb8C50XFQj1MHgcoLgINexq&s=cats', {mode: 'cors'});
+            const dataResponse = await response.json();
+                image.src = dataResponse.data.images.original.url;
+            };
+    </script>
+</body>
+</html>
