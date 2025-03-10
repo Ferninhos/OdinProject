@@ -1,0 +1,8 @@
+CallBacks -> Usa uma função como argumento de uma função
+    function(função2) {}
+
+    não só isso, consegue passar dados de uma função para outra
+    o callback(dados) voltaria o dados a outra função quando chamada
+    pela outra
+
+    mydata.then(function), espere isso executar, então faça isso

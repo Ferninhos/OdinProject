@@ -1,0 +1,14 @@
+fetch manda um HTTP e espera uma resposta da API
+    ai (.then) faz algo
+    se der erro (.catch)
+    fetch precisa de 2 (.then) para funcionar uma API
+        um para transformar JSON em objeto JS
+        outro para trabalhar diretamente com ela
+
+Em APIS não proprias
+    normalmente o HTTP é bloqueado por segurança
+        (mode: 'cors') - resolve
+
+API -> retorna um JSON
+
+Await -> tipo um (.then) mas para funções async

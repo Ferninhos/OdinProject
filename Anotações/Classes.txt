@@ -1,0 +1,18 @@
+Classes:
+    Usar sempre class ou function
+    function só para códigos pequenos e sem poo
+    no resto usar class
+
+metodos: 
+    static -> Usado só para a classe em sí (class Person)
+        só usa o Person, a var new não consegue usar
+
+    # ------> Usado para privar um atributo(nome, level)
+        sendo chamado apenas por uma function ou get/set
+
+    get ----> Não altera o valor original (_nome) mas sempre
+        imprime ele com a lógica(chamando nome) /return normal
+
+    set ----> Altera o valor original  /this._name = novoNome;
+
+    subClasses -> newClasse (extends) oldClasse /usar super(atributos)
