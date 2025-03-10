@@ -1,0 +1,52 @@
+.subcinema {
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 150px;
+}
+
+.subcinema.aberto {
+    display: block;
+}
+
+a {
+    display: block;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    height: 20px;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(221, 240, 255);
+}
+
+a:last-child {
+    border-bottom: none;
+}
+
+a:hover {
+    background-color: #f1f1f1;
+}
+
+.botaoCinema {
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.botaoCinema:hover,
+.botaoCinema.hover-ativo {
+    background-color: rgba(220, 225, 248, 0.5);
+}
+
+.linha {
+    height: 6px;
+    transform: scaleX(1.8);
+    line-height: 0px;
+    position: relative;
+    top: -3px;
+}
+
